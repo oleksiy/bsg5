@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.bsg5.chapter2.SpringGreeterTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-10-01T06:25:44" hostname="C02XG1REJGH8" time="0.188">
+  <properties/>
+  <testcase name="testHelloWorld" classname="com.bsg5.chapter2.SpringGreeterTest" time="0.188"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
