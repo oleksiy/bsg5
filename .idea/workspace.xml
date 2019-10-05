@@ -1,88 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b4f6b86f-2307-4a60-9814-3b7033e0aa4f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gradle/5.6.2/executionHistory/executionHistory.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.6.2/executionHistory/executionHistory.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.6.2/fileChanges/last-build.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.6.2/fileContent/fileContent.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.6.2/fileHashes/fileHashes.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.6.2/fileHashes/fileHashes.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.6.2/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.6.2/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.6.2/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.6.2/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.6.2/javaCompile/javaCompile.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/5.6.2/javaCompile/taskHistory.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/libs/bsg5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter10/build/libs/chapter10.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter10/build/tmp/jar/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter10custom/build/libs/chapter10custom.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter10custom/build/tmp/jar/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter10jpa/build/libs/chapter10jpa.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter10jpa/build/tmp/jar/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter2/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter2/build/classes/java/main/com/bsg5/chapter2/Greeter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter2/build/classes/java/main/com/bsg5/chapter2/HelloWorldGreeter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter2/build/classes/java/test/com/bsg5/chapter2/GreeterTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter2/build/classes/java/test/com/bsg5/chapter2/SpringGreeterTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter2/build/libs/chapter2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter2/build/reports/tests/test/classes/com.bsg5.chapter2.GreeterTest.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter2/build/reports/tests/test/classes/com.bsg5.chapter2.SpringGreeterTest.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter2/build/reports/tests/test/css/base-style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter2/build/reports/tests/test/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter2/build/reports/tests/test/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter2/build/reports/tests/test/js/report.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter2/build/reports/tests/test/packages/com.bsg5.chapter2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter2/build/resources/main/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter2/build/test-results/test/TEST-com.bsg5.chapter2.GreeterTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter2/build/test-results/test/TEST-com.bsg5.chapter2.SpringGreeterTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter2/build/test-results/test/binary/output.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter2/build/test-results/test/binary/output.bin.idx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter2/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter2/build/tmp/jar/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter2/src/main/java/com/bsg5/chapter2/Greeter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter2/src/main/java/com/bsg5/chapter2/HelloWorldGreeter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter2/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter2/src/test/java/com/bsg5/chapter2/GreeterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter2/src/test/java/com/bsg5/chapter2/SpringGreeterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter3/build/libs/chapter3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter3/build/tmp/jar/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter4/build/libs/chapter4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter4/build/tmp/jar/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter5/build/libs/chapter5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter5/build/tmp/jar/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter6/build/libs/chapter6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter6/build/tmp/jar/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter7/build/libs/chapter7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter7/build/tmp/jar/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter8/build/libs/chapter8.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter8/build/tmp/jar/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter9common/build/libs/chapter9common.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter9common/build/tmp/jar/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter9jpa/build/libs/chapter9jpa.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter9jpa/build/tmp/jar/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter9mongodb/build/libs/chapter9mongodb.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter9mongodb/build/tmp/jar/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter9test/build/libs/chapter9test.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter9test/build/tmp/jar/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-    </list>
+    <list default="true" id="b4f6b86f-2307-4a60-9814-3b7033e0aa4f" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -232,7 +151,7 @@
       <option name="presentableId" value="Default" />
       <updated>1569909139898</updated>
       <workItem from="1569909143726" duration="1978000" />
-      <workItem from="1570240108703" duration="850000" />
+      <workItem from="1570240108703" duration="1102000" />
     </task>
     <servers />
   </component>
