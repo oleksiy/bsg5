@@ -10,10 +10,11 @@ import java.util.Set;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
 import org.springframework.test.context.ContextConfiguration;
+import org.springframework.test.context.testng.AbstractTestNGSpringContextTests;
 import org.testng.annotations.Test;
 
 @ContextConfiguration(locations = "/config-01.xml")
-public class TestMusicService1 extends AbstractMusicService {
+public class TestMusicService1 extends AbstractTestNGSpringContextTests {
     @Autowired
     ApplicationContext context;
     @Autowired
