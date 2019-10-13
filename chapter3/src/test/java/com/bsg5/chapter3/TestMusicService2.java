@@ -17,4 +17,19 @@ public class TestMusicService2 extends AbstractTestNGSpringContextTests {
     public void testSongVoting() {
         tests.testSongVoting(service);
     }
+
+    @Test
+    public void testGetMatchingArtistNames() {
+        tests.testMatchingArtistNames(service);
+    }
+
+    @Test
+    public void testGetSongsForArtist() {
+        tests.testSongsForArtist(service);
+    }
+
+    @Test
+    public void testMatchingSongNamesForArtist() {
+        tests.testMatchingSongNamesForArtist(service);
+    }
 }

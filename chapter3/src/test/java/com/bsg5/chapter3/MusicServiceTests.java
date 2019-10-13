@@ -9,7 +9,7 @@ import java.util.function.Consumer;
 public class MusicServiceTests {
     private Object[][] model = new Object[][] {
             {"Threadbare Loaf", "Someone Stole the Flour", 4},
-            {"Threadbare Loaf", "What Happened To Our First CD", 17},
+            {"Threadbare Loaf", "What Happened To Our First CD?", 17},
             {"Therapy Zeppelin", "Medium", 4},
             {"Clancy in Silt", "Igneous", 5}
     };
@@ -47,7 +47,7 @@ public class MusicServiceTests {
     void testSongsForArtist(MusicService service) {
         reset(service);
         populateService(service);
-        List<Song> songs = service.getSongsForArtist("Threadbare loaf");
+        List<Song> songs = service.getSongsForArtist("Threadbare Loaf");
         assertEquals(songs.size(), 2);
         assertEquals(songs.get(0).getName(),"What Happened To Our First CD?");
         assertEquals(songs.get(0).getVotes(), 17);
