@@ -2,6 +2,8 @@ package com.bsg5.chapter3;
 
 import static org.testng.AssertJUnit.assertEquals;
 
+import com.bsg5.chapter3.model.Song;
+import java.util.List;
 import java.util.function.Consumer;
 
 public class MusicServiceTests {
@@ -40,5 +42,35 @@ public class MusicServiceTests {
         iterateOverModel(data ->
                 assertEquals(service.getSong((String) data[0], (String) data[1]).getVotes(), ((Integer) data[2]).intValue())
         );
+    }
+
+    void testSongsForArtist(MusicService service) {
+        reset(service);
+        populateService(service);
+        List<Song> songs = service.getSongsForArtist("Threadbare loaf");
+        assertEquals(songs.size(), 2);
+        assertEquals(songs.get(0).getName(),"What Happened To Our First CD?");
+        assertEquals(songs.get(0).getVotes(), 17);
+        assertEquals(songs.get(1).getName(), "Someone Stole the Flour");
+        assertEquals(songs.get(1).getVotes(), 4);
+    }
+
+    void testMatchingArtistNames(MusicService service) {
+        reset(service);
+        populateService(service);
+        List<String> names = service.getMatchingArtistNames("Th");
+        assertEquals(names.size(), 2);
+        assertEquals(names.get(0), "Therapy Zeppelin");
+        assertEquals(names.get(1), "Threadbare Loaf");
+    }
+
+    void testMatchingSongNamesForArtist(MusicService service) {
+        reset(service);
+        populateService(service);
+        List<String> names = service.getMatchingSongNamesForArtist(
+                "Threadbare Loaf", "W"
+        );
+        assertEquals(names.size(), 1);
+        assertEquals(names.get(0), "What Happened To Our First CD?");
     }
 }
