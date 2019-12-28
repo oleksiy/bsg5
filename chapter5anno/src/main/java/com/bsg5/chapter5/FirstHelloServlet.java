@@ -16,7 +16,9 @@ public class FirstHelloServlet extends HttpServlet {
     private final JtwigRenderer renderer = JtwigRenderer.defaultRenderer();
 
     @Override
-    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        renderer.dispatcherFor("/WEB-INF/templates/jtwig/hello.jtwig.html");
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        renderer.dispatcherFor("/WEB-INF/templates/jtwig/hello.jtwig.html")
+        .with("name", "world")
+        .render(request,response);
     }
 }
