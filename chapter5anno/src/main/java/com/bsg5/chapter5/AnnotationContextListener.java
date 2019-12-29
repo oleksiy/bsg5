@@ -19,7 +19,7 @@ public class AnnotationContextListener implements ServletContextListener {
      * initialization before any filters or servlets in the web
      * application are initialized.
      *
-     * @param sce the ServletContextEvent containing the ServletContext
+     * @param event the ServletContextEvent containing the ServletContext
      *            that is being initialized
      */
     @Override
