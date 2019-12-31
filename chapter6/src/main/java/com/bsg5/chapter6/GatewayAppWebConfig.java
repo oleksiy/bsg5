@@ -14,7 +14,9 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 public class GatewayAppWebConfig implements WebMvcConfigurer {
 
     @Override
-    public void configureViewResolvers(ViewResolverRegistry registry){ registry.viewResolver(jtwigViewResolver());}
+    public void configureViewResolvers(ViewResolverRegistry registry){
+        registry.viewResolver(jtwigViewResolver());
+    }
 
     public ViewResolver jtwigViewResolver() {
         JtwigViewResolver viewResolver = new JtwigViewResolver();
