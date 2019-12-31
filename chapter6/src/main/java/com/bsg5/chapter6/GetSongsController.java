@@ -41,7 +41,7 @@ public class GetSongsController {
     ){
         System.out.println(artist);
         List<Song> data = service.getSongsForArtist(artist);
-        return new ResponseEntity<List<Song>>(data, HttpStatus.OK);
+        return new ResponseEntity<>(data, HttpStatus.OK);
     }
 
 }
